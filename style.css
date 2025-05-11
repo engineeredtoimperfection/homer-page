@@ -3,6 +3,10 @@
     background-color: rgb(135, 202, 210);
 }
 
+.welcome-heading {
+    text-align: center;
+}
+
 .homer-gif {
     width: 50%;
     margin: auto;
