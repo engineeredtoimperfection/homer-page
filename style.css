@@ -4,6 +4,7 @@
 }
 
 #homer-gif {
-    height: 700px;
-    width: auto;
+    width: 50%;
+    margin: auto;
+    display: block;
 }
