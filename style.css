@@ -11,4 +11,70 @@
     width: 50%;
     margin: auto;
     display: block;
+
+    animation-duration: 8s;
+    animation-name: fall-but-act-normal;
+    animation-delay: 3s;
+}
+
+@keyframes fall-but-act-normal {
+    0% {
+        translate: 0 0;
+        scale: 100% 1;
+    }
+
+    2% {
+        translate: 0 30%;
+        scale: 100% 1;
+    }
+
+    4% {
+        translate: 0 25%;
+        scale: 100% 1;
+    }
+
+    8% {
+        translate: 0 30%;
+        scale: 100% 1;
+    }
+
+    10% {
+        translate: 0 29%;
+        scale: 100% 1;
+    }
+
+    13% {
+        translate: 0 30%;
+        scale: 100% 1;
+    }
+
+    25% {
+        translate: 0 30%;
+        scale: 100% 1;
+    }
+
+    33% {
+        translate: 0 17%;
+        scale: 100% 1;
+    }
+
+    47% {
+        translate: 0 17%;
+        scale: 100% 1;
+    }
+
+    59% {
+        translate: 0 7%;
+        scale: 100% 1;
+    }
+
+    93% {
+        translate: 0 7%;
+        scale: 100% 1;
+    }
+
+    100% {
+        translate: 0 0;
+        scale: 100% 1;
+    }
 }
