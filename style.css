@@ -3,6 +3,10 @@
     background-color: rgb(135, 202, 210);
 }
 
+body {
+    overflow: hidden;
+}
+
 .welcome-heading {
     text-align: center;
 }
