@@ -78,3 +78,27 @@
         scale: 100% 1;
     }
 }
+
+.welcome-container {
+    animation-name: shrink-and-slide-up;
+    animation-duration: 1s;
+    animation-delay: 13s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes shrink-and-slide-up {
+    0% {
+        translate: 0 0;
+        scale: 100% 1;
+    }
+
+    50% {
+        translate: 0 0;
+        scale: 100% 0.5;
+    }
+
+    100% {
+        translate: 0 -100vh;
+        scale: 100% 0.5;
+    }
+}
