@@ -127,6 +127,8 @@
 
 .stuff {
     padding: 0px 40vw;
+    font-weight: bold;
+    font-size: 32px;
 }
 
 .stuff.even {
