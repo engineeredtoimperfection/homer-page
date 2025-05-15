@@ -102,3 +102,11 @@
         scale: 100% 0.5;
     }
 }
+
+.stuff {
+    padding: 0px 40vw;
+}
+
+.stuff.even {
+    direction: rtl;
+}
