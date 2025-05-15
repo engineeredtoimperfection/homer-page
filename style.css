@@ -103,6 +103,11 @@
     }
 }
 
+.stuff-container {
+    position: relative;
+    bottom: 50vh;
+}
+
 .stuff {
     padding: 0px 40vw;
 }
