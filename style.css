@@ -81,8 +81,8 @@
 
 .welcome-container {
     animation-name: shrink-and-slide-up;
-    animation-duration: 1s;
-    animation-delay: 13s;
+    animation-duration: 0.75s;
+    animation-delay: 10s;
     animation-fill-mode: forwards;
 }
 
