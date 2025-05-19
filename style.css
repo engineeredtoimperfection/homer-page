@@ -138,3 +138,10 @@ body {
 .stuff.even {
     direction: rtl;
 }
+
+.vocals-text, .gaming-text {
+    text-align: center;
+
+    top: 45vh;
+    position: relative;
+}
