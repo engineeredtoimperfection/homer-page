@@ -140,6 +140,14 @@
     text-align: end;
 }
 
+.footer {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    z-index: -1;
+}
+
 .vocals-text, .gaming-text {
     text-align: center;
 
