@@ -3,10 +3,6 @@
     background-color: rgb(135, 202, 210);
 }
 
-body {
-    overflow: hidden;
-}
-
 .welcome-heading {
     text-align: center;
 }
@@ -108,9 +104,10 @@ body {
 }
 
 .stuff-container {
-    position: relative;
-    bottom: 60vh;
-    
+    position: fixed;
+    width: 100vw;
+    top: 20vh;
+
     opacity: 0;
 
     animation-name: fade-in;
@@ -130,13 +127,17 @@ body {
 }
 
 .stuff {
-    padding: 0px 40vw;
     font-weight: bold;
     font-size: 32px;
 }
 
+.stuff.odd {
+    padding-left: 40vw;
+}
+
 .stuff.even {
-    direction: rtl;
+    padding-right: 40vw;
+    text-align: end;
 }
 
 .vocals-text, .gaming-text {
