@@ -148,7 +148,7 @@
     z-index: -1;
 }
 
-.vocals-text, .gaming-text {
+.vocals-text, .gaming-text, .guitar-text {
     text-align: center;
 
     top: 45vh;
