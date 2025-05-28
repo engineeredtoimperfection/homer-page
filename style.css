@@ -140,6 +140,10 @@
     text-align: end;
 }
 
+.header {
+    text-align: center;
+}
+
 .footer {
     text-align: center;
     position: fixed;
