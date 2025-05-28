@@ -105,8 +105,9 @@
 
 .stuff-container {
     position: fixed;
-    width: 100vw;
+    width: 30vw;
     top: 20vh;
+    left: 35vw;
 
     border: 1px black solid;
 
@@ -134,11 +135,11 @@
 }
 
 .stuff.odd {
-    padding-left: 40vw;
+    padding-left: 5vw;
 }
 
 .stuff.even {
-    padding-right: 40vw;
+    padding-right: 5vw;
     text-align: end;
 }
 
