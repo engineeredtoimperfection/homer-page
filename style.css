@@ -108,6 +108,8 @@
     width: 100vw;
     top: 20vh;
 
+    border: 1px black solid;
+
     opacity: 0;
 
     animation-name: fade-in;
