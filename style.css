@@ -142,6 +142,13 @@
 
 .header {
     text-align: center;
+
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-delay: 11s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
 }
 
 .footer {
@@ -150,6 +157,12 @@
     width: 100%;
     bottom: 0px;
     z-index: -1;
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-delay: 11s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
 }
 
 .vocals-text, .gaming-text, .guitar-text, .blog-text, .design-text {
