@@ -174,3 +174,10 @@
     top: 45vh;
     position: relative;
 }
+
+.guitar-footer {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 20px;
+}
