@@ -168,18 +168,11 @@
     animation-fill-mode: forwards;
 }
 
-.vocals-text, .gaming-text, .guitar-text, .blog-text, .design-text {
+.vocals-text, .gaming-text, .blog-text, .design-text {
     text-align: center;
 
     top: 45vh;
     position: relative;
-}
-
-.guitar-footer {
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    bottom: 20px;
 }
 
 .small {
