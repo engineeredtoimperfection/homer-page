@@ -28,6 +28,7 @@ body {
     gap: 30px;
 
     width: 60vw;
+    padding: 0;
 
     list-style: none;
     font-size: 24px;
