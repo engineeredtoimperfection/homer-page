@@ -182,3 +182,8 @@
 .bold {
     font-weight: bold;
 }
+
+.streak-emojis {
+    display: inline-flex;
+    width: 80px;
+}
