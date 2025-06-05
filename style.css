@@ -186,4 +186,5 @@
 .streak-emojis {
     display: inline-flex;
     width: 80px;
+    text-align: start;
 }
