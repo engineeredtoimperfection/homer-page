@@ -28,7 +28,9 @@ body {
     gap: 30px;
 
     width: 60vw;
-    
+
     list-style: none;
     font-size: 24px;
+
+    text-decoration: underline;
 }
