@@ -40,3 +40,7 @@ body {
     font-size: 32px;
     user-select: none;
 }
+
+.guitar-list li a {
+    color: black;
+}
