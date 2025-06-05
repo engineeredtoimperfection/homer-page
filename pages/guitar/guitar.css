@@ -35,3 +35,7 @@ body {
 
     text-decoration: underline;
 }
+
+.guitar-list li:hover {
+    font-size: 32px;
+}
