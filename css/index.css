@@ -1,0 +1,164 @@
+.welcome-heading {
+    text-align: center;
+}
+
+.homer-gif {
+    width: 50%;
+    margin: auto;
+    display: block;
+
+    animation-duration: 7s;
+    animation-name: fall-but-act-normal;
+    animation-delay: 3s;
+}
+
+@keyframes fall-but-act-normal {
+    0% {
+        translate: 0 0;
+        scale: 100% 1;
+    }
+
+    2% {
+        translate: 0 30%;
+        scale: 100% 1;
+    }
+
+    4% {
+        translate: 0 25%;
+        scale: 100% 1;
+    }
+
+    8% {
+        translate: 0 30%;
+        scale: 100% 1;
+    }
+
+    10% {
+        translate: 0 29%;
+        scale: 100% 1;
+    }
+
+    13% {
+        translate: 0 30%;
+        scale: 100% 1;
+    }
+
+    25% {
+        translate: 0 30%;
+        scale: 100% 1;
+    }
+
+    33% {
+        translate: 0 17%;
+        scale: 100% 1;
+    }
+
+    47% {
+        translate: 0 17%;
+        scale: 100% 1;
+    }
+
+    59% {
+        translate: 0 7%;
+        scale: 100% 1;
+    }
+
+    93% {
+        translate: 0 7%;
+        scale: 100% 1;
+    }
+
+    100% {
+        translate: 0 0;
+        scale: 100% 1;
+    }
+}
+
+.welcome-container {
+    animation-name: shrink-and-slide-up;
+    animation-duration: 0.75s;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes shrink-and-slide-up {
+    0% {
+        translate: 0 0;
+        scale: 100% 1;
+    }
+
+    50% {
+        translate: 0 0;
+        scale: 100% 0.5;
+    }
+
+    100% {
+        translate: 0 -100vh;
+        scale: 100% 0.5;
+    }
+}
+
+.stuff-container {
+    position: fixed;
+    width: 30vw;
+    top: 20vh;
+    left: 35vw;
+
+    border: 1px black solid;
+
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-delay: 11s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.stuff {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.stuff.odd {
+    padding-left: 5vw;
+}
+
+.stuff.even {
+    padding-right: 5vw;
+    text-align: end;
+}
+
+.header {
+    text-align: center;
+
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-delay: 11s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+.footer {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    z-index: -1;
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-delay: 11s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
