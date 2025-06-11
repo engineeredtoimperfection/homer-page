@@ -38,6 +38,7 @@ body {
 
 .guitar-list li:hover {
     font-size: 32px;
+    font-weight: bold;
     user-select: none;
 }
 
