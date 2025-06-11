@@ -1,3 +1,22 @@
+html {
+    background-color: rgb(135, 202, 210);
+    animation: 10s linear 11s 1 forwards colour-transition;
+}
+
+@keyframes colour-transition {
+    33% {
+        background-color: #89D2A9;
+    }
+
+    66% {
+        background-color: #899AD2;
+    }
+
+    100% {
+        background-color: #89D2A9;
+    }
+}
+
 .welcome-heading {
     text-align: center;
 }
