@@ -17,6 +17,15 @@ html {
     }
 }
 
+a {
+    padding: 10px;
+    color: black;
+}
+
+a:hover {
+    background-color: white;
+}
+
 .welcome-heading {
     text-align: center;
 }
