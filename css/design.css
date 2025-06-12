@@ -1,0 +1,12 @@
+* {
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.design-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.design-text a {
+    color: #111;
+}
