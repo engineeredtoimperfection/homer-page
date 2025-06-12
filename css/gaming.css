@@ -8,8 +8,18 @@ html {
       background-size: cover;
 }
 
+body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      height: 100vh;
+}
+
 .gaming-text {
       font-size: 24px;
       -webkit-text-stroke: black 2px;
       color: white;
+      margin: 0 80px 60px 0;
 }
