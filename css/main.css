@@ -2,6 +2,11 @@
     font-family: "Barriecito", monospace, system-ui;
 }
 
+html {
+    background-color: #eee;
+    color: #111;
+}
+
 .vocals-text, .gaming-text, .blog-text, .design-text {
     text-align: center;
 
