@@ -1,3 +1,9 @@
 * {
       font-family: "Luckiest Guy", cursive;
 }
+
+html {
+      background: url(../assets/danger-guy.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+}
