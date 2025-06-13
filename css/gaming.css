@@ -15,7 +15,9 @@ body {
 }
 
 .slide-show-background {
+      position: fixed;
       height: 100%;
+      width: 100%;
       opacity: 0;
 }
 
@@ -76,6 +78,5 @@ body {
 
       to {
             opacity: 0;
-            display: none;
       }
 }
