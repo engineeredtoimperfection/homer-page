@@ -9,6 +9,12 @@ html {
 
 a {
     color: #00bcd4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #33ddee;
+    text-decoration: underline;
 }
 
 body {
