@@ -22,31 +22,31 @@ body {
 .background-one {
       background: url(../assets/danger-guy.jpg) left top / cover no-repeat;
 
-      animation: showcase-entry 3s 1s forwards, showcase-exit 3s 6s forwards;
+      animation: showcase-entry 5s 1s forwards, showcase-exit 5s 7s forwards;
 }
 
 .background-two {
       background: url(../assets/retired-don-thinking.jpg) left top / cover no-repeat;
 
-      animation: showcase-entry 3s 10s forwards, showcase-exit 3s 15s forwards;
+      animation: showcase-entry 5s 12s forwards, showcase-exit 5s 18s forwards;
 }
 
 .background-three {
       background: url(../assets/police-officer.jpg) left top / cover no-repeat;
 
-      animation: showcase-entry 3s 19s forwards, showcase-exit 3s 24s forwards;
+      animation: showcase-entry 5s 23s forwards, showcase-exit 5s 29s forwards;
 }
 
 .background-four {
       background: url(../assets/black-guy-suburban.jpg) left top / cover no-repeat;
 
-      animation: showcase-entry 3s 28s forwards, showcase-exit 3s 33s forwards;
+      animation: showcase-entry 5s 34s forwards, showcase-exit 5s 40s forwards;
 }
 
 .background-five {
       background: url(../assets/untouchable-rich-mobster.jpg) left top / cover no-repeat;
 
-      animation: showcase-entry 3s 37s forwards;
+      animation: showcase-entry 5s 45s forwards;
 }
 
 .gaming-text {
