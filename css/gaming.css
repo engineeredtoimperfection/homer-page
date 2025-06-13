@@ -16,6 +16,7 @@ body {
 
 .slide-show-background {
       height: 100%;
+      opacity: 0;
 }
 
 .background-one {
@@ -60,7 +61,21 @@ body {
 }
 
 @keyframes showcase-background {
+
+      from {
+            opacity: 0;
+      }
+
+      30% {
+            opacity: 1;
+      }
+
+      70% {
+            opacity: 1;
+      }
+
       to {
+            opacity: 0;
             display: none;
       }
 }
