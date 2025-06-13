@@ -22,32 +22,31 @@ body {
 .background-one {
       background: url(../assets/danger-guy.jpg) left top / cover no-repeat;
 
-      animation: showcase-background 10s forwards;
+      animation: showcase-entry 3s 1s forwards, showcase-exit 3s 6s forwards;
 }
 
 .background-two {
       background: url(../assets/retired-don-thinking.jpg) left top / cover no-repeat;
 
-      animation: showcase-background 10s forwards;
-      animation-delay: 10s;
+      animation: showcase-entry 3s 10s forwards, showcase-exit 3s 15s forwards;
 }
 
 .background-three {
       background: url(../assets/police-officer.jpg) left top / cover no-repeat;
 
-      animation: showcase-background 10s forwards;
-      animation-delay: 20s;
+      animation: showcase-entry 3s 19s forwards, showcase-exit 3s 24s forwards;
 }
 
 .background-four {
       background: url(../assets/black-guy-suburban.jpg) left top / cover no-repeat;
 
-      animation: showcase-background 10s forwards;
-      animation-delay: 30s;
+      animation: showcase-entry 3s 28s forwards, showcase-exit 3s 33s forwards;
 }
 
 .background-five {
       background: url(../assets/untouchable-rich-mobster.jpg) left top / cover no-repeat;
+
+      animation: showcase-entry 3s 37s forwards;
 }
 
 .gaming-text {
@@ -60,17 +59,18 @@ body {
       color: white;
 }
 
-@keyframes showcase-background {
-
+@keyframes showcase-entry {
       from {
             opacity: 0;
       }
 
-      30% {
+      to {
             opacity: 1;
       }
+}
 
-      70% {
+@keyframes showcase-exit {
+      from {
             opacity: 1;
       }
 
