@@ -2,12 +2,6 @@
       font-family: "Luckiest Guy", cursive;
 }
 
-html {
-      background: url(../assets/danger-guy.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-}
-
 body {
       margin: 0;
       padding: 0;
@@ -16,15 +10,56 @@ body {
 }
 
 .slide-show-container {
-      display: flex;
       flex-basis: 100%;
-      justify-content: flex-end;
-      align-items: flex-end;
+}
+
+.slide-show-background {
+      height: 100%;
+}
+
+.background-one {
+      background: url(../assets/danger-guy.jpg) left top / cover no-repeat;
+
+      animation: showcase-background 10s forwards;
+}
+
+.background-two {
+      background: url(../assets/retired-don-thinking.jpg) left top / cover no-repeat;
+
+      animation: showcase-background 10s forwards;
+      animation-delay: 10s;
+}
+
+.background-three {
+      background: url(../assets/police-officer.jpg) left top / cover no-repeat;
+
+      animation: showcase-background 10s forwards;
+      animation-delay: 20s;
+}
+
+.background-four {
+      background: url(../assets/black-guy-suburban.jpg) left top / cover no-repeat;
+
+      animation: showcase-background 10s forwards;
+      animation-delay: 30s;
+}
+
+.background-five {
+      background: url(../assets/untouchable-rich-mobster.jpg) left top / cover no-repeat;
 }
 
 .gaming-text {
+      position: fixed;
+      right: 80px;
+      bottom: 60px;
+
       font-size: 24px;
       -webkit-text-stroke: black 2px;
       color: white;
-      margin: 0 80px 60px 0;
+}
+
+@keyframes showcase-background {
+      to {
+            display: none;
+      }
 }
