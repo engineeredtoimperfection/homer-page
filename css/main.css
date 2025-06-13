@@ -22,7 +22,7 @@ html {
     font-weight: bold;
 }
 
-.streak-emojis {
+.activity-emojis {
     display: inline-flex;
     width: 80px;
     text-align: start;
