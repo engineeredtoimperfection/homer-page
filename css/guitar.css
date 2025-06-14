@@ -56,3 +56,8 @@ body {
 .guitar-list li a {
     color: #db4a3d;
 }
+
+.guitar-activity-emojis {
+    display: inline-flex;
+    width: 150px;
+}
