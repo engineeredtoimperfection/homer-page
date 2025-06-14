@@ -1,3 +1,8 @@
+html {
+    background-color: #2f323f;
+    color: #e0e0e0;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -35,6 +40,11 @@ body {
     text-decoration: underline;
 }
 
+.guitar-list li {
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+}
+
 .guitar-list li:hover {
     font-size: 32px;
     font-weight: bold;
@@ -42,5 +52,5 @@ body {
 }
 
 .guitar-list li a {
-    color: black;
+    color: #db4a3d;
 }
