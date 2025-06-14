@@ -15,6 +15,11 @@ a {
 a:hover {
     color: #33ddee;
     text-decoration: underline;
+    text-shadow: 
+        -1px -1px 5px rgba(0, 188, 212, 0.5),
+        -1px 1px 5px rgba(0, 188, 212, 0.5),
+        1px -1px 5px rgba(0, 188, 212, 0.5),
+        1px 1px 5px rgba(0, 188, 212, 0.5);
 }
 
 body {
