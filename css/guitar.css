@@ -61,6 +61,14 @@ body {
     text-align: center;
 }
 
+.invisible {
+    opacity: 0;
+}
+
+.invisible:hover {
+    opacity: 0.25;
+}
+
 .guitar-activity-emojis {
     display: inline-flex;
     width: 150px;
