@@ -57,6 +57,10 @@ body {
     color: #db4a3d;
 }
 
+.progress-label {
+    text-align: center;
+}
+
 .guitar-activity-emojis {
     display: inline-flex;
     width: 150px;
