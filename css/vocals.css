@@ -70,6 +70,20 @@ progress {
     animation-delay: 5s;
 }
 
+.more-link-container {
+    padding: 20px 0px;
+
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 7s;
+}
+
+.more-link-container a {
+    color: #3a2e2b;
+}
+
 @keyframes fade-in {
     from {
         opacity: 0;
@@ -78,12 +92,4 @@ progress {
     to {
         opacity: 1;
     }
-}
-
-.more-link-container {
-    padding: 20px 0px;
-}
-
-.more-link-container a {
-    color: #3a2e2b;
 }
