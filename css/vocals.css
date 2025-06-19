@@ -75,3 +75,12 @@ progress {
         opacity: 1;
     }
 }
+
+.more-link-container {
+    position: fixed;
+    bottom: 20px;
+}
+
+.more-link-container a {
+    color: #3a2e2b;
+}
