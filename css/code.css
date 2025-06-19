@@ -27,6 +27,10 @@ body {
     padding: 5px 30px;
 }
 
+.activity-container {
+    font-size: 20px;
+}
+
 .more-button {
     font-size: 18px;
     text-transform: uppercase;
