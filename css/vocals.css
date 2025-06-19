@@ -30,6 +30,7 @@ body {
     padding: 0;
 
     display: flex;
+    flex-direction: column;
     height: 100vh;
 
     justify-content: center;
@@ -48,8 +49,11 @@ progress {
 }
 
 .container {
+    flex: 1;
+
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 20px;
 }
@@ -77,8 +81,7 @@ progress {
 }
 
 .more-link-container {
-    position: fixed;
-    bottom: 20px;
+    padding: 20px 0px;
 }
 
 .more-link-container a {
