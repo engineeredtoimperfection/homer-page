@@ -30,4 +30,8 @@ body {
 .more-button {
     font-size: 18px;
     text-transform: uppercase;
+
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
 }
