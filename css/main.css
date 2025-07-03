@@ -22,6 +22,10 @@ html {
     font-weight: bold;
 }
 
+.italic {
+    font-style: italic;
+}
+
 .activity-emojis {
     display: inline-flex;
     width: 80px;
