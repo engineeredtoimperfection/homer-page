@@ -28,6 +28,16 @@ body {
     align-items: center;
 }
 
+.activity-container {
+    display: flex;
+}
+
+.activity-container > * {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .guitar-list {
     display: flex;
     flex-wrap: wrap;
@@ -71,5 +81,6 @@ body {
 
 .guitar-activity-emojis {
     display: inline-flex;
-    width: 150px;
+    width: 30%;
+    overflow-wrap: anywhere;
 }
