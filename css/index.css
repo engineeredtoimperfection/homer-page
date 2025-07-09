@@ -200,3 +200,13 @@ a:hover {
     animation-duration: 4s;
     animation-fill-mode: forwards;
 }
+
+@media only screen and (max-width: 600px) {
+    .homer-gif{
+        width: 85%;
+    }
+
+    .stuff-container {
+        width: 70vw;
+    }
+}
