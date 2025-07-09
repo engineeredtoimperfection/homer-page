@@ -86,3 +86,31 @@ body {
     width: 30%;
     overflow-wrap: anywhere;
 }
+
+@media only screen and (max-width: 600px) {
+    .guitar-list {
+        width: 100%;
+        justify-content: center;
+        row-gap: 3px;
+        column-gap: 2px;
+        font-size: 17px;
+    }
+
+    .guitar-activity-emojis {
+        width: 100%;
+        text-align: start;
+    }
+
+    .activity-container > * {
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .guitar-content {
+        font-size: 17px;
+    }
+
+    .guitar-main {
+        gap: 80px;
+    }
+}
