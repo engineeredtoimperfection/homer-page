@@ -17,6 +17,17 @@ html {
     }
 }
 
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 a {
     padding: 10px;
     color: black;
@@ -32,8 +43,6 @@ a:hover {
 
 .homer-gif {
     width: 50%;
-    margin: auto;
-    display: block;
 
     animation-duration: 7s;
     animation-name: fall-but-act-normal;
@@ -103,6 +112,13 @@ a:hover {
 }
 
 .welcome-container {
+    position: fixed;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
     animation-name: shrink-and-slide-up;
     animation-duration: 0.75s;
     animation-delay: 10s;
@@ -127,10 +143,7 @@ a:hover {
 }
 
 .stuff-container {
-    position: fixed;
     width: 30vw;
-    top: 20vh;
-    left: 35vw;
 
     border: 10px black inset;
 
@@ -179,10 +192,7 @@ a:hover {
 
 .footer {
     text-align: center;
-    position: fixed;
     width: 100%;
-    bottom: 0px;
-    z-index: -1;
     opacity: 0;
 
     animation-name: fade-in;
