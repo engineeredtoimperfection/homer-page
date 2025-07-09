@@ -111,3 +111,14 @@ progress {
         opacity: 1;
     }
 }
+
+@media only screen and (max-width: 600px) {
+
+    .vocals-activity-emojis {
+        max-width: 100%;
+    }
+
+    .activity-container > * {
+        padding: 0 10px;
+    }
+}
