@@ -80,3 +80,23 @@ body {
             opacity: 0;
       }
 }
+
+@media only screen and (max-width: 600px) {
+
+      .slide-show-container {
+            background-color: black;
+      }
+
+      .slide-show-background {
+            background-size: 100vw;
+            background-position: center;
+      }
+
+      .gaming-text {
+            bottom: 30px;
+            right: 40px;
+
+            font-size: 20px;
+            -webkit-text-stroke-width: 1px;
+      }
+}
