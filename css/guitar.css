@@ -96,6 +96,11 @@ body {
         font-size: 17px;
     }
 
+    .guitar-list li:hover {
+        font-size: unset;
+        font-weight: unset;
+    }
+
     .guitar-activity-emojis {
         width: 100%;
         text-align: start;
