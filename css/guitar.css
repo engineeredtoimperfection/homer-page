@@ -87,6 +87,18 @@ body {
     overflow-wrap: anywhere;
 }
 
+.social-links-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.touchstone {
+    text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
     .guitar-list {
         width: 100%;
