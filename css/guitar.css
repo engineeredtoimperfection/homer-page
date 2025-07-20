@@ -92,7 +92,12 @@ body {
     margin: 0;
     list-style-type: none;
     display: flex;
+    justify-content: center;
     gap: 20px;
+}
+
+.icon {
+    height: 25px;
 }
 
 .touchstone {
