@@ -1,3 +1,7 @@
+:root {
+    --animation-speed-multiplier: 1;
+}
+
 html {
     background-color: rgb(135, 202, 210);
     animation: 10s linear 11s 1 forwards colour-transition;
@@ -44,9 +48,9 @@ a:hover {
 .homer-gif {
     width: 50%;
 
-    animation-duration: 7s;
+    animation-duration: calc(7s * var(--animation-speed-multiplier));
     animation-name: fall-but-act-normal;
-    animation-delay: 3s;
+    animation-delay: calc(3s * var(--animation-speed-multiplier));
 }
 
 @keyframes fall-but-act-normal {
@@ -120,8 +124,8 @@ a:hover {
     width: 100%;
 
     animation-name: shrink-and-slide-up;
-    animation-duration: 0.75s;
-    animation-delay: 10s;
+    animation-duration: calc(0.75s * var(--animation-speed-multiplier));
+    animation-delay: calc(10s * var(--animation-speed-multiplier));
     animation-fill-mode: forwards;
 }
 
@@ -150,8 +154,8 @@ a:hover {
     opacity: 0;
 
     animation-name: fade-in;
-    animation-delay: 11s;
-    animation-duration: 4s;
+    animation-delay: calc(11s * var(--animation-speed-multiplier));
+    animation-duration: calc(4s * var(--animation-speed-multiplier));
     animation-fill-mode: forwards;
 }
 
@@ -185,8 +189,8 @@ a:hover {
     opacity: 0;
 
     animation-name: fade-in;
-    animation-delay: 11s;
-    animation-duration: 4s;
+    animation-delay: calc(11s * var(--animation-speed-multiplier));
+    animation-duration: calc(4s * var(--animation-speed-multiplier));
     animation-fill-mode: forwards;
 }
 
@@ -196,8 +200,8 @@ a:hover {
     opacity: 0;
 
     animation-name: fade-in;
-    animation-delay: 11s;
-    animation-duration: 4s;
+    animation-delay: calc(11s * var(--animation-speed-multiplier));
+    animation-duration: calc(4s * var(--animation-speed-multiplier));
     animation-fill-mode: forwards;
 }
 
