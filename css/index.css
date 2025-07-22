@@ -189,7 +189,7 @@ a:hover {
     opacity: 0;
 
     animation-name: fade-in;
-    animation-delay: calc(11s * var(--animation-speed-multiplier));
+    animation-delay: calc(22s * var(--animation-speed-multiplier));
     animation-duration: calc(4s * var(--animation-speed-multiplier));
     animation-fill-mode: forwards;
 }
@@ -200,7 +200,7 @@ a:hover {
     opacity: 0;
 
     animation-name: fade-in;
-    animation-delay: calc(11s * var(--animation-speed-multiplier));
+    animation-delay: calc(22s * var(--animation-speed-multiplier));
     animation-duration: calc(4s * var(--animation-speed-multiplier));
     animation-fill-mode: forwards;
 }
