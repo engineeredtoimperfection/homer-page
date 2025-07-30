@@ -16,3 +16,9 @@ fetch('../config.json')
     .catch(error => {
         console.error('Error fetching config:', error)
     })
+
+
+alert(
+`Just finish 1 pomodoro session :)
+while working on The Odin Project.`
+)
