@@ -29,3 +29,12 @@ for (const anchorTag of anchorTags) {
         }, 1000);
     })
 }
+
+if (window.location.hash === '#me') {
+
+    const highlightedElements = document.getElementsByClassName('highlighted')
+    
+    for (const element of highlightedElements) {
+        element.style.cssText += 'border: 2px dashed;'
+    }
+}
