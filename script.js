@@ -33,8 +33,22 @@ for (const anchorTag of anchorTags) {
 if (window.location.hash === '#me') {
 
     const highlightedElements = document.getElementsByClassName('highlighted')
+
+    // Delay before the highlighting animation (in seconds)
+    const delayBeforeHighlighting = 10
     
-    for (const element of highlightedElements) {
-        element.style.cssText += 'border: 2px dashed;'
-    }
+    setTimeout(() => {
+        for (let index = 0; index < highlightedElements.length; index++) {
+
+            setTimeout(() => {
+                const element = highlightedElements[index]
+
+                element.style.cssText += 'background-color: white;'
+
+                setTimeout(() => {
+                    element.style.cssText -= 'background-color: white;'
+                }, 3000);
+            }, index * 5000)
+        }
+    }, delayBeforeHighlighting * 1000)
 }
