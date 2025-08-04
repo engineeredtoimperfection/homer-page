@@ -1,37 +1,57 @@
-const visitCountStorageKey = "timesHomerPageVisited";
-let visits = localStorage.getItem(visitCountStorageKey) || 0;
-localStorage.setItem(visitCountStorageKey, ++visits);
-console.log(`You've visited this site ${visits} times.`)
+const visits = trackVisits()
 
-// Restrict this value between 1 and 8 (inclusive)
-const visitCountCapped = Math.min(Math.max(visits, 1), 8);
-const animationMultiplier = 1 - ((visitCountCapped - 1) * 0.1);
+applyAnimationMultiplier(visits)
 
-document.documentElement.style.setProperty("--animation-speed-multiplier", animationMultiplier);
+customiseLinkBehaviour()
 
-const anchorTags = document.getElementsByTagName("a");
+detectPersonalMode()
 
-for (const anchorTag of anchorTags) {
-    anchorTag.addEventListener("click", (e) => {
-        e.preventDefault();
-
-        const targetAnchorObject = e.currentTarget;
-        const href = targetAnchorObject.href;
-        const rel = targetAnchorObject.rel;
-
-        const relCsv = rel.split(" ").join(",");
-
-        targetAnchorObject.style.cursor = 'wait';
-
-        setTimeout(() => {
-            targetAnchorObject.style.cursor = '';
-            window.open(href, "_target", relCsv);
-        }, 1000);
-    })
+function trackVisits() {
+    const visitCountStorageKey = "timesHomerPageVisited";
+    let visits = Number(localStorage.getItem(visitCountStorageKey)) || 0;
+    localStorage.setItem(visitCountStorageKey, ++visits);
+    console.log(`You've visited this site ${visits} times.`)
+    return visits
 }
 
-if (window.location.hash === '#me') {
+function applyAnimationMultiplier(visits) {
+    // Restrict this value between 1 and 8 (inclusive)
+    const visitCountCapped = Math.min(Math.max(visits, 1), 8);
+    const animationMultiplier = 1 - ((visitCountCapped - 1) * 0.1);
 
+    document.documentElement.style.setProperty("--animation-speed-multiplier", animationMultiplier);
+}
+
+function customiseLinkBehaviour() {
+    const anchorTags = document.getElementsByTagName("a");
+
+    for (const anchorTag of anchorTags) {
+        anchorTag.addEventListener("click", (e) => {
+            e.preventDefault();
+
+            const targetAnchorObject = e.currentTarget;
+            const href = targetAnchorObject.href;
+            const rel = targetAnchorObject.rel;
+
+            const relCsv = rel.split(" ").join(",");
+
+            targetAnchorObject.style.cursor = 'wait';
+
+            setTimeout(() => {
+                targetAnchorObject.style.cursor = '';
+                window.open(href, "_target", relCsv);
+            }, 1000);
+        })
+    }
+}
+
+function detectPersonalMode() {
+    if (window.location.hash === '#me') {
+        enablePersonalMode()
+    }
+}
+
+function enablePersonalMode() {
     const highlightedElements = document.getElementsByClassName('highlighted')
 
     // Delay before the highlighting animation (in seconds)
