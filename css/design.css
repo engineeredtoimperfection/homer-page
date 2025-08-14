@@ -1,5 +1,5 @@
 * {
-    font-family: "Red Hat Display", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -8,33 +8,29 @@ body {
     height: 100vh;
 
     display: flex;
+}
+
+.design-item {
+    flex: 1;
+
+    display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.container {
-    font-size: 24px;
-    font-weight: bold;
-
-    display: flex;
-    justify-content: space-between;
     align-items: center;
 
-    padding: 0 20%;
+    color: white;
 }
 
-.container > * {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.design-item:hover {
+    cursor: pointer;
+
+    border: white 2px solid;
 }
 
-.container a {
-    color: #111;
+#item-one {
+    background-color: #4F39F6;
 }
 
-.vertical-spacer {
-    height: 100%;
-    width: 1px;
-    background-color: black;
+#item-two {
+    background-color: #101828;
 }

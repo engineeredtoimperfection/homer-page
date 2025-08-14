@@ -7,19 +7,20 @@
         <title>Design</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../css/main.css">
         <link rel="stylesheet" href="../css/design.css">
     </head>
     <body>
-        <div class="container">
-            <div class="design-link-container">
-                <p><a href="https://help.figma.com/hc/en-us/sections/30880632542743-Figma-Design-for-beginners" target="_blank noreferrer">Figma Design</a></p>
-            </div>
-            <hr class="vertical-spacer"></hr>
-            <div class="design-link-container">
-                <p><a href="https://stitch.withgoogle.com" target="_blank noreferrer">Google Stitch</a></p>
-            </div>
+        <div class="design-item" id="item-one" onclick="window.open(figmaLink)">
+            <h1>Figma Design</h1>
+            <div><i>Finetune and polish. Get the details just right.</i></div>
         </div>
+        <div class="design-item" id="item-two" onclick="window.open(stitchLink)">
+            <h1>Google Stitch</h1>
+            <div><i>Play with ideas. Explore and experiment freely.</i></div>
+        </div>
+
+        <script src="../js/design.js"></script>
     </body>
 </html>
