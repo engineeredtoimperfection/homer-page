@@ -11,5 +11,5 @@ vocalsTile.addEventListener('click', () => {
 })
 
 musicianshipTile.addEventListener('click', () => {
-    
+    window.open('../pages/musicianship.html')
 })
