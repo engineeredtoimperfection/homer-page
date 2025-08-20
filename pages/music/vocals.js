@@ -1,4 +1,4 @@
-fetch('../config.json')
+fetch('../../config.json')
     .then(res => res.json())
     .then(config => {
 

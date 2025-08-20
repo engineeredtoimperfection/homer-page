@@ -73,5 +73,5 @@ function enablePersonalMode() {
     }, delayBeforeHighlighting * 1000)
 
     const musicLink = document.getElementById('music-link')
-    musicLink.href = './pages/music.html#me'
+    musicLink.href = './pages/music/music.html#me'
 }
