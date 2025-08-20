@@ -149,6 +149,8 @@ a:hover {
 .stuff-container {
     width: 30vw;
 
+    padding: 15px 0;
+
     border: 10px black inset;
 
     opacity: 0;
