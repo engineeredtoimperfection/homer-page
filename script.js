@@ -72,7 +72,6 @@ function enablePersonalMode() {
         }
     }, delayBeforeHighlighting * 1000)
 
-    const guitarLink = document.getElementById('guitar-link')
-
-    guitarLink.href = 'https://the-practice-page.vercel.app/#me'
+    const musicLink = document.getElementById('music-link')
+    musicLink.href = './pages/music.html#me'
 }

@@ -1,15 +1,28 @@
-const guitarTile = document.getElementById('guitar-tile')
-const vocalsTile = document.getElementById('vocals-tile')
-const musicianshipTile = document.getElementById('musicianship-tile')
+const isPersonalModeOn = detectPersonalMode()
+setLinks(isPersonalModeOn)
 
-guitarTile.addEventListener('click', () => {
-    window.open('https://the-practice-page.vercel.app')
-})
+function detectPersonalMode() {
+    return window.location.hash === '#me'
+}
 
-vocalsTile.addEventListener('click', () => {
-    window.open('../pages/vocals.html')
-})
+function setLinks(isPersonalModeOn) {
+    const guitarTile = document.getElementById('guitar-tile')
+    const vocalsTile = document.getElementById('vocals-tile')
+    const musicianshipTile = document.getElementById('musicianship-tile')
 
-musicianshipTile.addEventListener('click', () => {
-    window.open('../pages/musicianship.html')
-})
+    const guitarLink = isPersonalModeOn ? 'https://the-practice-page.vercel.app/#me' : 'https://the-practice-page.vercel.app'
+    const vocalsLink = isPersonalModeOn ? '../pages/vocals.html#me' : '../pages/vocals.html'
+    const musicianshipLink = isPersonalModeOn ? '../pages/musicianship.html#me' : '../pages/musicianship.html'
+    
+    guitarTile.addEventListener('click', () => {
+        window.open(guitarLink)
+    })
+
+    vocalsTile.addEventListener('click', () => {
+        window.open(vocalsLink)
+    })
+
+    musicianshipTile.addEventListener('click', () => {
+        window.open(musicianshipLink)
+    })
+}
