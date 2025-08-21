@@ -148,6 +148,7 @@ a:hover {
 
 .stuff-container {
     width: 30vw;
+    min-width: 300px;
 
     padding: 15px 0;
 
@@ -205,6 +206,36 @@ a:hover {
     animation-delay: calc(22s * var(--animation-speed-multiplier));
     animation-duration: calc(4s * var(--animation-speed-multiplier));
     animation-fill-mode: forwards;
+}
+
+@media only screen and (max-width: 1400px) {
+    .homer-gif{
+        width: 55%;
+    }
+
+    .stuff-container {
+        width: 35vw;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .homer-gif{
+        width: 60%;
+    }
+
+    .stuff-container {
+        width: 37vw;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .homer-gif{
+        width: 65%;
+    }
+
+    .stuff-container {
+        width: 50vw;
+    }
 }
 
 @media only screen and (max-width: 600px) {
